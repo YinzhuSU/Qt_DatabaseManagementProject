@@ -7,27 +7,30 @@ MyWidget::MyWidget(QWidget *parent) :
     ui(new Ui::MyWidget)
 {
     ui->setupUi(this);
+    this->setWindowTitle("Choose Language");
 
+
+    //set English button and Chinese button
     connect(ui->btnEnglish, &QPushButton::clicked,
             [=](){
-        login.show();
+        login->show();
     });
 
     connect(ui->btnChinese, &QPushButton::clicked,
             [=](){
-        login.show();
+        login->show();
     });
 
     //deal with signal from loginWidget:
     ///1//
-    connect(&login, &LoginWidget::returnButtonSignal, this, &MyWidget::dealLoginReturnSignal);
+    connect(login, &LoginWidget::returnButtonSignal, this, &MyWidget::dealLoginReturnSignal);
     //注意！connect函数的第一项和第三项一定是pointer而不是object，如果是object就一定要加个&来取地址
 
 }
 
 void MyWidget::dealLoginReturnSignal()
 {
-    login.hide();
+    login->hide();
     show();
 }
 

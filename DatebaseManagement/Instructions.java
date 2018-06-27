@@ -46,7 +46,7 @@ public class Instructions {
 
 Views：
 四个QWidget pages：
-1. Choose Chinese or English (or translate
+1. Choose Chinese or English (or translate during anytime?)
 2. Register?
     2.1 Register Success
     2.2 The username is already taken. Please directly login.

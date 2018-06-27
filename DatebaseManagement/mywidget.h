@@ -18,11 +18,8 @@ public:
 
 private:
     Ui::MyWidget *ui;
-    //LoginWidget *login = new LoginWidget;
-    LoginWidget login;
-
-    LoginWidget *another;
-
+    LoginWidget *login = new LoginWidget;
+   // LoginWidget login;
 };
 
 #endif // MYWIDGET_H

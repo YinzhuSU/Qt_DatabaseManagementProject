@@ -26,15 +26,21 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         mywidget.cpp \
-    loginwidget.cpp
+    loginwidget.cpp \
+    signupwidget.cpp \
+    mainviewwidget.cpp
 
 HEADERS += \
         mywidget.h \
-    loginwidget.h
+    loginwidget.h \
+    signupwidget.h \
+    mainviewwidget.h
 
 FORMS += \
         mywidget.ui \
-    loginwidget.ui
+    loginwidget.ui \
+    signupwidget.ui \
+    mainviewwidget.ui
 
 DISTFILES += \
     Instructions.java \
