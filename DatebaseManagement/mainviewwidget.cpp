@@ -6,7 +6,7 @@ MainViewWidget::MainViewWidget(QWidget *parent) :
     ui(new Ui::MainViewWidget)
 {
     ui->setupUi(this);
-    this->setWindowTitle("Database Management");
+    //this->setWindowTitle("Database Management");
 }
 
 

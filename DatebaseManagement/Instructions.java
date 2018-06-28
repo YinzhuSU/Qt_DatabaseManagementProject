@@ -31,8 +31,8 @@ public class Instructions {
 
 
     Other Requirements:
-    1. The program should be implemented using Qt and C++.
-    2. Use QWidget to create at least three pages.
+    1.【OK】 The program should be implemented using Qt and C++.
+    2.【OK】 Use QWidget to create at least three pages.
     3. Use QTranslator to implement the multi-language support.
     4. Use SQLite.
     5. A good design following SOLID and MVC will be a BIG PLUS.

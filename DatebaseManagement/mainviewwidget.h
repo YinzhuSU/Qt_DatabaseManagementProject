@@ -24,6 +24,7 @@ private slots:
 
 private:
     Ui::MainViewWidget *ui;
+
 };
 
 #endif // MAINVIEWWIDGET_H

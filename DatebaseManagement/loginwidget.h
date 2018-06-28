@@ -3,6 +3,9 @@
 #include "signupwidget.h"
 #include "mainviewwidget.h"
 #include <QWidget>
+#include <QSql>
+#include <QtSql>
+#include <QDebug>
 
 namespace Ui {
 class LoginWidget;
@@ -22,10 +25,15 @@ public:
 signals:
     void returnButtonSignal();
 
+private slots:
+    void on_btnLogin_clicked();
+
 private:
     Ui::LoginWidget *ui;
     SignUpWidget *signUp = new SignUpWidget;
     MainViewWidget *mainView = new MainViewWidget;
+
+    QSqlDatabase *userInformation = new QSqlDatabase;
 };
 
 #endif // LOGINWIDGET_H
