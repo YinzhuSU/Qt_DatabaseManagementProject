@@ -1,2 +1,0 @@
-1. Can switch between four views.
-2. Login view is connected with Database and can check username and password when login.
