@@ -44,6 +44,8 @@ FORMS += \
 
 DISTFILES += \
     Instructions.java \
-    Bugs_and_problems.java
+    Bugs_and_problems.java \
+    Achieved Functions.txt \
+    Achieved Functions.txt
 
 CONFIG += C++11

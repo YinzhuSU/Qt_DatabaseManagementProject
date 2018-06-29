@@ -34,7 +34,7 @@ void Login::on_btnLogin_clicked()
         qDebug() << "Database is not open.";
     }
 
-    connOpen();
+    connOpen();//unnecessary
     QSqlQuery *qry = new QSqlQuery;
     qry->prepare("SELECT * FROM employee WHERE username = '"+ username +"' and password = '"+ password +"'");
 
