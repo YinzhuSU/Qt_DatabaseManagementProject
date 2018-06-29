@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2018-06-26T17:31:43
+# Project created by Andrew Su 2018-06-26T17:31:43
 #
 #-------------------------------------------------
 
@@ -46,6 +46,7 @@ DISTFILES += \
     Instructions.java \
     Bugs_and_problems.java \
     Achieved Functions.txt \
-    Achieved Functions.txt
+    Achieved Functions.txt \
+    Achieved_Functions.java
 
 CONFIG += C++11

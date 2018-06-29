@@ -11,6 +11,7 @@ MyWidget::MyWidget(QWidget *parent) :
 
 
     //set English button and Chinese button
+    ///4//如何让用户在点击完语言按钮之后，进到login界面里面的username和password都先默认为NULL、不留下上次输入的痕迹？
     connect(ui->btnEnglish, &QPushButton::clicked,
             [=](){
         login->show();

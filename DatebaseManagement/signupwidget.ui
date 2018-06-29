@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>349</width>
-    <height>282</height>
+    <width>449</width>
+    <height>340</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -72,13 +72,10 @@
       <item>
        <widget class="QWidget" name="widget_3" native="true">
         <layout class="QGridLayout" name="gridLayout">
-         <item row="1" column="1">
-          <widget class="QLineEdit" name="lePassword">
+         <item row="0" column="0">
+          <widget class="QLabel" name="lblUsername">
            <property name="text">
-            <string/>
-           </property>
-           <property name="placeholderText">
-            <string>Create password</string>
+            <string>Username:</string>
            </property>
           </widget>
          </item>
@@ -92,17 +89,30 @@
            </property>
           </widget>
          </item>
-         <item row="2" column="0">
-          <widget class="QLabel" name="lblReenter">
-           <property name="text">
-            <string>Re-enter Password:</string>
-           </property>
-          </widget>
-         </item>
          <item row="1" column="0">
           <widget class="QLabel" name="lblPassword">
            <property name="text">
             <string>Password:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="lePassword">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+           <property name="placeholderText">
+            <string>Create password</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="lblReenter">
+           <property name="text">
+            <string>Re-enter Password:</string>
            </property>
           </widget>
          </item>
@@ -111,17 +121,40 @@
            <property name="text">
             <string/>
            </property>
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
            <property name="placeholderText">
             <string>Re-enter password</string>
            </property>
           </widget>
          </item>
-         <item row="0" column="0">
-          <widget class="QLabel" name="lblUsername">
+         <item row="3" column="0">
+          <widget class="QLabel" name="lblNickname">
            <property name="text">
-            <string>Username:</string>
+            <string>Nickname:</string>
            </property>
           </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLineEdit" name="leNickname">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="placeholderText">
+            <string>Nickname</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="lblAuthority">
+           <property name="text">
+            <string>Authority:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QComboBox" name="cbAuthority"/>
          </item>
         </layout>
        </widget>
