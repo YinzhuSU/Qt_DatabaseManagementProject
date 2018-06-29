@@ -76,7 +76,7 @@ void LoginWidget::on_btnLogin_clicked()
     QSqlQuery *qry = new QSqlQuery;
     if(qry->exec("SELECT * FROM employee WHERE username = '"+ username +"' and password = '"+ password +"'"))
     {
-//        QString name = qry->("SELECT name FROM employee WHERE username = '"+ username +"'");
+        //QString name = qry->exec("SELECT name FROM employee WHERE username = '"+ username +"'");
         int count = 0;
         while(qry->next())
         {
