@@ -1,4 +1,4 @@
-public class Achieved_Functions {
+﻿public class Achieved_Functions {
         1. Can switch between four views.
         2. Login view is connected with Database and can check username and password when login.
         [06290904]
@@ -7,4 +7,6 @@ public class Achieved_Functions {
         [06291539]
         4. Add icons to four views.(Though a little ugly).
         [06291613]
+        5. User have three ways to import files into database.
+        [07011748]
 }
