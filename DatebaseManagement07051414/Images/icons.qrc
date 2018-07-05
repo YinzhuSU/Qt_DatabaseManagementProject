@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>register.png</file>
+        <file>Language.png</file>
+        <file>Login.png</file>
+        <file>Mainview.png</file>
+    </qresource>
+</RCC>
